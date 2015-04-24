@@ -1,3 +1,52 @@
+li.section{
+	margin: 0;
+}
+.section_title{
+  margin-bottom: 0;
+  padding: 3px 10px 5px;
+	background-color: #0074A2;
+  color: #efefef;
+}
+li.item{
+	margin: 0;
+	padding: 5px 0px 7px;
+}
+li.item.added{
+	background-color: #C5E0F5;
+}
+li.item.removed{
+	background-color: #ffcccc;
+}
+li.item span.progress{
+	margin: 0;
+  padding: 6px 2px 8px 2px;
+	background-color: #F9EC00;
+}
+li.item span.done{
+	margin: 0;
+  padding: 6px 2px 8px 2px;
+	background-color: #23F900;
+}
+li.item span input{
+	margin:0 5px;
+}
+.legend ul{
+  border: 1px solid #ababab;
+  display: inline-block;
+  padding: 0 3px;
+  margin: 0;
+}
+.legend li.item{
+	display: inline-block;
+	padding: 8px 0 10px 0;
+}
+.legend li.item.text{
+	padding: 5px 10px 7px;
+}
+.legend li.item span.progress, .legend li.item span.done{
+	padding-left: 10px;
+}
+/******************************************************************/
 ul.listofrows{
 	overflow: hidden;
 }
@@ -81,13 +130,13 @@ li.row .left{
     transition: all 0.3s ease-out 0s;
 }
 .checkbox-switch .checkbox-off {
-	margin-left: 32px;
+	margin-left: 45px;
 	opacity: 1;
 }
 .checkbox-switch .checkbox-on {
 	display: none;
 	float: right;
-	margin-right: 35px;
+	margin-right: 40px;
 	opacity: 0;
 }
 .checkbox-switch input.chkswchipt:checked + .checkbox-animate .checkbox-off {
